@@ -1,16 +1,23 @@
-# This is a sample Python script.
+import subprocess
+import time
+from subprocess import call
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# subprocess.run(["echo","jebi se "], shell=True)
+#
+# call('First HalfTime Corect.py')
+# while True:
+#     print("noinp")
+#     if input():
+#         break
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+try:
+    while True:
+        print("noimp")
+        input()
 
+except KeyboardInterrupt:
+    print("imp")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Do something. Program doesn't terminate after CTRL-C
+print('hello world')
